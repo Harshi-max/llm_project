@@ -39,9 +39,14 @@ Copy the API key
 git clone https://github.com/Harshi-max/llm_project.git
 cd llm_project
 pip install -r requirements.txt
+pip install ipython
 ▶️ Running the Streamlit Apps
 For Text-based Chat (Gemini Pro):
 streamlit run app.py
+if the above doesn't work use:
+python -m streamlit run app.py
 For Image-based Input (Gemini Vision):
 streamlit run vision.py
+if the above doesn't work run:
+python -m streamlit run vision.py
  
